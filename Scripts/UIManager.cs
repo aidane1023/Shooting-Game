@@ -21,10 +21,10 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        LivesLost();
+        LoseLife();
     }
 
-    public void LivesLost()
+    public void LoseLife()
     {
         if (int_script.lives == 3) { text.text = ("LIVES - 3"); }
         else if (int_script.lives == 2) { text.text = ("LIVES - 2"); }
