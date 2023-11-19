@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7991864491688550916}
   m_Layer: 0
   m_Name: Enemy Hawker
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalScreenLimit: 0
   explosionPrefab: {fileID: 2405335410818740593, guid: 6dfc0899203f8b94880acda6e74defb1, type: 3}
+  powerPrefab: {fileID: 6738772196749301135, guid: b927ab777c5d47847a2e5cf9c984da41, type: 3}
 --- !u!61 &6025433160834613248
 BoxCollider2D:
   m_ObjectHideFlags: 0

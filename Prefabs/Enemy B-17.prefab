@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -1219799716605158100}
   m_Layer: 0
   m_Name: Enemy B-17
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 2405335410818740593, guid: 6dfc0899203f8b94880acda6e74defb1, type: 3}
+  powerPrefab: {fileID: 6738772196749301135, guid: b927ab777c5d47847a2e5cf9c984da41, type: 3}
 --- !u!61 &7017701725631204327
 BoxCollider2D:
   m_ObjectHideFlags: 0
